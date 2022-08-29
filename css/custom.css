@@ -55,4 +55,6 @@
 
 .imagePreview img {
   width: 50%;
+  height: 250px;
+  object-fit: cover;
 }
