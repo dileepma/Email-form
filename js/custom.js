@@ -3,7 +3,7 @@ const firstName = document.querySelector("input[name='fname']")
 const lastName = document.querySelector("input[name='lname']")
 const emailInput = document.querySelector("input[name='email']")
 const messageInput = document.querySelector("textarea[name='message']")
-const submitBtn = document.querySelector('.btnSubmit')
+const submitBtn = document.querySelector('.btn-submit')
 const valMsg = document.querySelector('.val-msg')
 const imageUpload = document.querySelector("input[name='fupload']")
 
@@ -61,7 +61,7 @@ function fileValidation() {
     if (imageUpload.files && imageUpload.files[0]) {
       let reader = new FileReader()
       reader.onload = function (e) {
-        document.querySelector('.imagePreview').innerHTML =
+        document.querySelector('.image-preview').innerHTML =
           '<img src="' + e.target.result + '"/>'
       }
       reader.readAsDataURL(imageUpload.files[0])

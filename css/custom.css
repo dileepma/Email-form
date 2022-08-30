@@ -14,7 +14,7 @@
 .form-control {
   border-radius: 1.5rem;
 }
-.btnSubmit {
+.btn-submit {
   border: none;
   border-radius: 6px;
   padding: 1%;
@@ -53,7 +53,7 @@
   color: #e6220c;
 }
 
-.imagePreview img {
+.image-preview img {
   width: 50%;
   height: 250px;
   object-fit: cover;
